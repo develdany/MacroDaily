@@ -170,7 +170,7 @@ Sub Macro4()
     Selection.AutoFill Destination:=Range("X2:X366"), Type:=xlFillDefault
     'Cemento
     Range("Y1") = "AGLOM-Cemento"
-    Range("Y2").Formula = "=(Q2*U2)/100"
+    Range("Y2").Formula = "=(Q2*U2)/1000"
     Range("Y2").Select
     Selection.AutoFill Destination:=Range("Y2:Y366"), Type:=xlFillDefault
 
