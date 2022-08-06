@@ -177,12 +177,12 @@ Sub Macro4()
     '************************* Stacker **********************************
     'MineralStacker
     Range("Z1") = "STACKER-MineralStacker"
-    Range("Z2").Formula = "=+VLookup(A2, Procesos_Real!E8:LV372,152,False)"
+    Range("Z2").Formula = "=+VLookup(A2, Procesos_Real!E8:LV372,151,False)"
     Range("Z2").Select
     Selection.AutoFill Destination:=Range("Z2:Z366"), Type:=xlFillDefault
     'LeyAu
     Range("AA1") = "STACKER-LeyAu"
-    Range("AA2").Formula = "=+VLookup(A2, Procesos_Real!E8:LV372,151,False)"
+    Range("AA2").Formula = "=+VLookup(A2, Procesos_Real!E8:LV372,152,False)"
     Range("AA2").Select
     Selection.AutoFill Destination:=Range("AA2:AA366"), Type:=xlFillDefault
     'AuApiladoStacker
